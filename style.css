@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.foot{
+    background-color: #0471d6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+}
+.footleft{
+    width: 30%;
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+}
+.footleft img{
+    width: 100px;
+}
+.footcenter{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footcenter ul {
+    list-style: none;
+}
+.footcenter a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.rightfoot{
+    width: 20%;
+    
+}
+.rightfoot img {
+    width: 50px;
+    margin-left: 25px;
+}
+.rightfoot ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.rightfoot ul li i{
+
+    color: white;
+}
+.first {
+    background-image: url(./assets/bg-wall.jpeg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.p1 {
+    font-size: 34px;
+    color: white;
+    font-weight: 1000;
+    text-align: left;
+    margin-right: 300px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.p2 {
+    color: white;
+    padding: 0px 150px;
+    margin-right: 70px;
+    margin-top: 20px;
+    word-spacing: 30;
+    padding-right: 180px;
+    margin-bottom: 20px;;
+}
+
+.ninth {
+    background-image: url("https://www.pepsi.com/en-us/uploads/04_Generation_BG_D_2.png?mtime=20181217151706 ");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.ninthL {
+    width: 50%;
+}
+
+.ninthR {
+    width: 50%;
+    margin-top: 140px;
+    margin-left: 20px;
+
+}
+
+.ninthR img {
+    width: 600px;
+}
+
+.eight {
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/twil-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 850px;
+}
+
+.eightL {
+    margin-top: 55px;
+}
+
+.eightR {
+    margin-top: 250px;
+    margin-left: 60px;
+}
+
+.eightR img {
+    width: 550px;
+}
+
+.fifthL p {
+    margin-left: 80px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    border: blue 8px solid;
+    margin-top: -5px;
+    width: 430px;
+}
+
+.sixth {
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/pepsi-mango/mango-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 795px;
+
+}
+
+.sixthL {
+    width: 30%;
+
+    margin-top: 130px;
+    /* margin-left: 50px; */
+}
+
+.img3 {
+    
+    width: 600px;
+    padding-left: 90px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.img4 {
+    width: 1200px;
+    height: auto;
+    opacity: 30;
+    margin-top: -250px;
+    z-index: -1;
+}
+.img5 {
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    margin-top: -80px;
+    align-self: center;
+    padding: 0 -50px;
+    margin-left: 20px;
+}
+.sixthR {
+    width: 70%;
+    margin-left: 115px;
+}
+
+.sixthR img {
+    width: 1050px;
+}
+
+.fifthR {
+    margin-left: 70px;
+    width: 70%;
+    height: 100%;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/better-with-pepsi/PEP_BWP_D.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fifthR img {
+    width: 620px;
+    right: 2px;
+    margin-top: 500px;
+    margin-left: 473px;
+}
+.three {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    ;
+    width: 100%;
+    height: 730px;
+}
+
+.tleft {
+    width: 40%;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/pzs-new-taste/pzs-can-nobug-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -120px;
+    margin-left: 290px;
+    background-size: 970px 850px;
+
+}
+
+.tleft img {
+    margin-top: 180px;
+    margin-left: 370px;
+}
+
+.img2 {
+    width: 400px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: -140px;
+
+}
+
+.img1 {
+    margin-top: 110px;
+    height: 350px;
+    width: 500px;
+    margin-left: 20px;
+}
+
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/nitro/Desktop_Background.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.f1 {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.f2 {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.fifth {
+    width: 100%;
+    height: 700px;
+    background-color: #0065c3;
+    display: flex;
+}
+
+.fifthL {
+    width: 30%;
+}
+
+
+.fLeft {
+    width: 45%;
+    height: 100%;
+    margin-left: 420px;
+}
+
+.fRight img {
+    width: 430px;
+    margin-top: 120px;
+    margin-right: 330px;
+}
+
+.text2 {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 300px;
+    font-size: 22px;
+    font-weight: 700 !important;
+    margin-bottom: 20px;
+}
+
+.fLeft img {
+    width: 450px;
+    height: 620px;
+    margin-top: 50px;
+    padding-right: 30px;
+}
+
+.fRight {
+    width: 55%;
+    height: 700px;
+}
+
+.text3 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 19px;
+    padding: 5px;
+    padding-left: 20px;
+    font-weight: 600;
+    margin-left: 140px;
+    margin-top: 350px;
+
+}
+
+.tright {
+    width: 70%;
+    height: 100%;
+}
+
+/* .trVL {
+
+} */
+
+.sec {
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/bg-wall.jpeg);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.a2 {
+    margin: -25px 100px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 19px;
+    padding: 5px;
+    padding-left: 10px;
+    font-weight: 600;
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.text {
+    color: white;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 11.5px;
+    padding: 0px 20px;
+    text-align: center;
+    margin-right: 350px;
+    word-spacing: 80;
+    margin-bottom: 60px;
+}
+
+.sright {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 45%;
+    color: black;
+}
+
+.a4 {
+    margin: -25px 150px;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 19px;
+    padding: 5px;
+    padding-left: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.sright img {
+    width: 450px;
+    height: 400px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.sleft {
+    width: 45%;
+    background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/pzs-can-old@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 200px;
+
+}
+
+.adiv img {
+    width: 300px;
+    height: 300px;
+}
+
+section {
+    position: absolute;
+    top: 100px;
+}
+
+.bp {
+    color: white;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13.5px;
+    font-weight: 550;
+    font-size: 14px;
+    position: absolute;
+    margin-top: 2.4%;
+    right: 1%;
+    border: 2px solid #fff;
+    border-radius: 4em;
+    background: transparent;
+    padding: 5px 22px;
+}
+
+.span1 {
+    color: white;
+    position: relative;
+    top: -25%;
+    margin-top: 5px;
+    margin-left: 70px;
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13.5px;
+    font-weight: 550;
+}
+
+.top {
+    background-color: #0065c3;
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+}
+
+.top img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.t1{
+    height: 400PX;
+    width: 100%;
+    background-color: #203093;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tenth img {
+    margin-top: -50px;
+    width: 320px;
+}
+.tenth h1{
+    color:#0065c3;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
